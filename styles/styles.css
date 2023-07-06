@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=PT+Serif&family=Pacifico&family=Roboto:wght@300&family=Rubik:wght@300&family=Sintony&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: 200vh;
+}
+
+.list-items{
+    text-decoration: none;
+    list-style: none;
+}
+
+b{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.desc-li{
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+.anchor-links{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 80, 80, 0.424);
+    width: 100vw;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sm-heading{
+    padding: 2%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sm-heading h1{
+    margin-top: 10px;
+    color: rgba(191, 168, 249, 0.59);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 2.7rem;
+    background: none;
+}
+
+.embedded-items{
+    display: flex;
+    height: 1500px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedIn iframe{
+    width: 400px;
+    height: 490px;
+    border-radius: 10px;
+}
+
+.twitter{
+    padding: 0 10px;
+}
+

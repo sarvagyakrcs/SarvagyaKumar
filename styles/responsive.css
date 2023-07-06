@@ -1,0 +1,181 @@
+@media only screen and (max-width: 1312px) {
+    .nav-bar {
+        flex-direction: column;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-image {
+        height: 20%;
+        margin-right: 50px;
+    }
+    .nav-menu ul{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        flex-direction: column;
+        height: 60%;
+        margin-top: 20px;
+    }
+    .nav-menu ul li{
+        text-align: center;
+    }
+    .nav-search-bar {
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-search-bar input{
+        height: 30px;
+        background: white;
+        border: 0px;
+        border: 1px black solid;
+        border-right: 0px;
+        
+    }
+    .sm-btn{
+        height: 30px;
+        width: 30px;
+        background: #FF9800;
+        border: 1px black solid;
+    }
+    .banner{
+        height: 20px;
+    }
+    .banner p{
+        font-size: small;
+    }
+    .nav-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-image img{
+        width: 150px;
+        margin-left: 39px;
+    }
+    .nav-search-bar input{
+        height: 20px;
+    }
+
+    .nav-search-bar button{
+        height: 20px;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .embedded-items{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .social-media{
+        height: 1100px;
+    }
+    .about-roadmap{
+        flex-direction: row;
+    }
+    .year{
+        flex-direction: column;
+    }
+    .year-desc{
+        flex-direction: column;
+    }
+    .n-year{
+        padding: 40%;
+    }
+    .nav-bar{
+        height: 500px;
+    }
+    .nav-menu {
+        width: 40%;
+    }
+    .main .left-box {
+        flex-direction: column;
+        width: 100vw;
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .main .right-box {
+        width: 100vw;
+    }
+    .main .left-box h1{
+        text-align: center;
+        width: 100vw;
+        padding-right: 17vw;
+    }
+    .main .right-box img{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .social-media{
+        height: 1100px;
+    }
+    .linkedIn iframe{
+        width: 326px;
+        padding: 0 10px;
+        border-radius: 20px;
+    }
+    
+    .twitter{
+        width: 316px;
+        padding: 0;
+    }
+
+    .sm-heading h1{
+        font-size: 1.6rem;
+    }
+
+    .embedded-items{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about-roadmap{
+        width: 100vw;
+    }
+    .About{
+        flex-direction: column;
+    }
+    .About .info{
+        flex-direction: column;
+    }
+    .About .info p{
+        width: 90vw;
+    }
+    .about-roadmap .year .n-year .info-year .year-desc{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 930px){
+    .left-box h1{
+        font-size: 2rem;
+    }
+    .main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-box img{
+        border-radius: 0;
+        width: 50vw;
+    }
+}
+
+/* skills and certifications */
+@media only screen and (max-width: 1312px) {
+    .certficate-img{
+        height: 90%;
+        width: 90vw;
+        margin: 0 20px;
+    }
+}
